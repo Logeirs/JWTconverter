@@ -13,7 +13,7 @@ Run this command to clone from Git:
 
 ## Usage
 ```
-JWTconverter.py {JWT token} {Public key file}
+JWTconverter.py {RS256 JWT token} {Public key file}
 ```
 
 
