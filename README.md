@@ -3,7 +3,7 @@ Convert JWT tokens from RS256 to HS256
 
 
 ## Details
-For a given RS256 signed JWT token, this script changes the algorithm from RS256 to HS256 and signs the altered token with the public key that you provide. It is only used as a Proof of Concept do demonstrate a vulnerability, and thus does not change the payload.
+For a given RS256 signed JWT token, this script changes the algorithm from RS256 to HS256 and signs the altered token with the public key (that you provide). It is only used as a Proof of Concept do demonstrate a vulnerability, and thus does not change the payload.
 
 
 ## Download via Git

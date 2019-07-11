@@ -12,7 +12,7 @@ import base64,binascii
 
 def main(argc, argv):
     if argc != 3:
-        print "Usage: %s {JWT token} {Public key file}" % argv[0]
+        print "Usage: %s {RS256 JWT token} {Public key file}" % argv[0]
         sys.exit(1)
 
     print '\n'
